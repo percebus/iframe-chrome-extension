@@ -1,0 +1,27 @@
+{
+  "name": "iframe-chrome-extension",
+  "version": "0.1.0",
+  "description": "<iframe chrome-extension",
+  "main": "manifest.json",
+  "scripts": {
+    "npm:install:global": "npm install --location=global yarn standard",
+    "standard": "standard --fix src/**/*.js",
+    "lint:js": "npm run standard",
+    "lint": "npm run lint:js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/percebus/iframe-chrome-extension.git"
+  },
+  "keywords": [
+    "iframe",
+    "chrome-extension"
+  ],
+  "author": "percebus",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/percebus/iframe-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/percebus/iframe-chrome-extension#readme"
+}

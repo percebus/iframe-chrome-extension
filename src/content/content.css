@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+}
+
+#chrome-extension-iframe {
+    position: fixed;
+    background-color: lime;
+    right: 20px;
+    bottom: 0;
+}
+
+#chrome-extension-iframe, #chrome-extension-iframe iframe {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#chrome-extension-iframe iframe {
+    background-color: silver !important;
+    border: none
+}
