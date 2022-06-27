@@ -5,6 +5,7 @@
   "main": "manifest.json",
   "scripts": {
     "npm:install:global": "npm install --location=global yarn standard",
+    "setup": "npm run npm:install:global",
     "standard": "standard --fix src/**/*.js",
     "lint:js": "npm run standard",
     "lint": "npm run lint:js",
