@@ -24,6 +24,8 @@ Simply visit any website
 
 ## Examples
 
+The following screenshots where taken against [`react-next-tutorials-jsx-app`](https://github.com/percebus/react-next-tutorials-jsx-app) NextJS (a React re-write) app
+
 ### google.com
 
 ![google](README/google.png)
